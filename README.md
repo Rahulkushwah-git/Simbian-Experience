@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Simbian Experience
 
-## Getting Started
+This is a basic implementation of the **Simbian Experience** UI hosted at: [https://simbian-experience-4eoa.vercel.app/](https://simbian-experience-4eoa.vercel.app/)  
+GitHub Repository: [https://github.com/Rahulkushwah-git/Simbian-Experience.git](https://github.com/Rahulkushwah-git/Simbian-Experience.git)
 
-First, run the development server:
+The current version includes a minimal setup using **Next.js** with animations handled via the **Framer Motion** library. While not all features from the original spec are implemented, this version represents a foundational layout with basic UI interactions and transitions. My focus was on quickly getting something functional up and deployed, keeping responsiveness and simple component structure in mind.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Notes:
+- The animation library used is **Framer Motion**, though not all of its advanced features were applied.
+- Some UI/UX and functional aspects are missing, mainly due to limited familiarity with certain parts of the tech stack.
+- With an additional 7–8 days, I am confident I can dive deeper into the stack, refine the UI, and implement the full feature set as required.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔧 Known Issues / Potential Improvements:
+- The current UI lacks full responsiveness and polish.
+- Deeper integrations with animations, advanced layout transitions, and state management are still in progress.
+- Some features are placeholders for now and will be built as I continue learning the full tech stack.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you for checking out the project!
