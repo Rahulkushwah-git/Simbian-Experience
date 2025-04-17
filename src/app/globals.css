@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} */
+/* ---------- Global Styles ---------- */
+body {
+  @apply font-sans bg-gray-50 text-gray-800 leading-relaxed;
+  scroll-behavior: smooth;
+}
+
+/* ---------- Section Styles ---------- */
+section {
+  @apply transition-all duration-500 ease-in-out;
+}
+
+section#without {
+  background: linear-gradient(to bottom right, #fff5f5, #ffe3e3);
+}
+
+section#with {
+  background: linear-gradient(to bottom right, #f0fff4, #d1fae5);
+}
+
+/* ---------- Typography Enhancements ---------- */
+h1, h2, h3, h4 {
+  @apply tracking-tight;
+}
+
+p {
+  @apply leading-6;
+}
+
+/* ---------- Animated Alert Cards ---------- */
+.alert-flash {
+  animation: flashAlert 1.5s ease-in-out infinite;
+}
+
+@keyframes flashAlert {
+  0%, 100% { background-color: #fee2e2; }
+  50% { background-color: #fecaca; }
+}
+
+/* ---------- Custom Utility Classes ---------- */
+.shadow-glow-red {
+  box-shadow: 0 4px 20px rgba(239, 68, 68, 0.3);
+}
+
+.shadow-glow-green {
+  box-shadow: 0 4px 20px rgba(34, 197, 94, 0.3);
+}
+
+.section-heading {
+  @apply text-3xl md:text-4xl font-bold text-center mb-10;
+}
+
+.stat-number {
+  @apply text-4xl font-extrabold;
+}
+/* 
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
