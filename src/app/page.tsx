@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Navbar from './components/Common/Navbar';
 import WithoutSimbianSection from './components/WithoutSimbian/WithoutSimbianSection';
 import WithSimbianSection from './components/WithSimbian/WithSimbianSection';

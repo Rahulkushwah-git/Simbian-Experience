@@ -9,7 +9,7 @@ export default function AnimatedCounter({ from = 0, to = 100 }) {
   useEffect(() => {
     const controls = animate(count, to, { duration: 1.5 });
     return controls.stop;
-  }, [to]);
+  }, [count, to]);
 
   return <motion.span>{rounded}</motion.span>;
 }
